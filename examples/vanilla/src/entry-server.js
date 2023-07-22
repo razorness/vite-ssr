@@ -1,5 +1,5 @@
 import './index.css'
-import viteSSR from 'vite-ssr/core/entry-server'
+import viteSSR from 'vite-ssr-unhead/core/entry-server'
 import { html } from './utils'
 
 // These are pages following a custom format:

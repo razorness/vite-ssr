@@ -1,6 +1,6 @@
 const { defineConfig } = require('vite')
 const react = require('@vitejs/plugin-react')
-const viteSSR = require('vite-ssr/plugin')
+const viteSSR = require('vite-ssr-unhead/plugin')
 
 // https://vitejs.dev/config/
 module.exports = defineConfig({

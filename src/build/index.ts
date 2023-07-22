@@ -72,7 +72,7 @@ export = async (
         publicDir: false, // No need to copy public files to SSR directory
         build: {
           outDir: path.resolve(distDir, 'server'),
-          // The plugin is already changing the vite-ssr alias to point to the server-entry.
+          // The plugin is already changing the vite-ssr-unhead alias to point to the server-entry.
           // Therefore, here we can just use the same entry point as in the index.html
           ssr: await getEntryPoint(viteConfig),
           emptyOutDir: false,
